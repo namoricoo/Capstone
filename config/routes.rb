@@ -1,4 +1,6 @@
 Capstone::Application.routes.draw do
+  root to: 'usgs#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
