@@ -10,5 +10,25 @@
 
 <%= yield %>
 
+<script>
+$(document).ready(function() {
+	$('.slideControl').slideControl({
+		speed: 600,
+		lowerBound: 1,
+		upperBound: 10,
+	});
+
+
+});
+$(document).ready(function() {
+	$('.cdi_slideControl').slideControl({
+		speed: 600,
+		lowerBound: 0.0,
+		upperBound: 10.0,
+	});
+
+
+});
+</script>
 </body>
 </html>
